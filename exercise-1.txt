@@ -1,0 +1,40 @@
+1. Newton Second Law
+
+STORE “f” without any value
+STORE “m” with any value
+STORE “a” with any value
+
+CALCULATE “m” times “a”
+SET “f” value with calculation result
+
+DISPLAY “f”
+
+
+2. Tahun Kabisat
+
+STORE “year” to any number
+
+IF “year” / 4 = 0
+	DISPLAY “Tahun Kabisat”
+ELSE
+	DISPLAY “Bukan Tahun Kabisat”
+
+
+3. Laundry Day
+
+STORE “laundry” to any number
+
+IF “laundry” < 20
+	DISPLAY “add more laundry”
+ELSE
+	DISPLAY “ready to wash”
+
+
+4. Periksa Kuku
+
+STORE “kukuPelajar” with “panjang” OR “tidak panjang”
+
+IF “kukuPelajar” = “panjang”
+	DO “berikan hukuman”
+ELSE
+	DO “berikan pujian”
