@@ -53,7 +53,6 @@ var secondWordLength = secondWord4.length;
 var thirdWordLength = thirdWord4.length;
 var fourthWordLength = fourthWord4.length;
 var fifthWordLength = fifthWord4.length;
-// create new variables around here
 
 console.log('First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
 console.log('Second Word: ' + secondWord4 + ', with length: ' + secondWordLength);
