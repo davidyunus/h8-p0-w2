@@ -1,0 +1,46 @@
+//1. Menyusun Barisan Bintang
+
+var row1 = 5;
+
+for(var bintang1 = 0; bintang1 < row1; bintang1++) {
+  console.log('*');
+}
+
+
+//2. Menyusun Barisan Bintang Dengan Nested Looping
+
+var bintang = '';
+var row = 5; //input jumah yang dinginkan
+
+for(var input = 0; input < row; input++ ) {
+  for(var input2 = 0; input2 < row; input2++) {
+    bintang = bintang + '*';
+  }
+  console.log(bintang);
+  bintang = '';
+}
+
+
+//3. Menyusun Barisan Bintang Dengan Nested Looping
+
+//opsi 1
+
+var no = 3;
+var output = '';
+
+for (var i = 1; i <= no; i++){
+  console.log(output+='*');
+}
+
+//opsi 2
+
+var totalNumberofRows = '5';
+var output="";
+
+for (var star1 = 1; star1 <= totalNumberofRows; star1++) {
+  for (var star2 = 1; star2 <= star1; star2++) {
+    output+='*';
+  }
+  console.log(output);
+  output='';
+}
