@@ -10,19 +10,26 @@ var seventh = 'it!';
 
 console.log(word +' '+ second +' '+ third +' '+ fourth +' '+ fifth +' '+ sixth +' '+ seventh);
 
+console.log('---------------------------------');
+
 //2. Index Accessing - 1 by 1
 
-var firstWord = 'wow';
-var second = 'Javascript';
-var third = 'is';
-var fourth = 'so';
-var fifth = 'cool';
+var word = 'wow JavaScript is so cool';
+var exampleFirstWord = word[0] + word[1] + word[2];
+var firstWord = word[0] + word[1] + word[2];
+var second = word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word[10] + word[11] + word[12] + word[13];
+var third = word[15] + word[16];
+var fourth = word[17] + word[18];
+var fifth = word[20] + word[21] + word[22] + word[23];
 
+console.log(exampleFirstWord);
 console.log('First Word: ' + firstWord);
 console.log('Second Word: ' + second);
 console.log('Third Word: ' + third);
 console.log('Fourth Word: ' + fourth);
 console.log('Fifth Word: ' + fifth);
+
+console.log('---------------------------------');
 
 //3. Breaking Sentence (Again) using Substring
 
@@ -38,6 +45,8 @@ console.log('Second Word: ' + second);
 console.log('Third Word: ' + third);
 console.log('Fourth Word: ' + fourth);
 console.log('Fifth Word: ' + fifth);
+
+console.log('---------------------------------');
 
 //4. Breaking Sentence (yet Again) and Count Each Length
 
