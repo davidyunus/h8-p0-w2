@@ -22,7 +22,6 @@ var third = word[15] + word[16];
 var fourth = word[17] + word[18];
 var fifth = word[20] + word[21] + word[22] + word[23];
 
-console.log(exampleFirstWord);
 console.log('First Word: ' + firstWord);
 console.log('Second Word: ' + second);
 console.log('Third Word: ' + third);
@@ -69,11 +68,3 @@ console.log('Third Word: ' + thirdWord4 + ', with length: ' + thirdWordLength);
 console.log('Fourth Word: ' + fourthWord4 + ', with length: ' + fourthWordLength);
 console.log('Fifth Word: ' + fifthWord4 + ', with length: ' + fifthWordLength);
 
-/*Output
-
-First Word: wow, with length: 3
-Second Word: JavaScript, with length: 10
-Third Word: is, with length: 2
-Fourth Word: so, with length: 2
-Fifth Word: cool, with length: 4
-*/
